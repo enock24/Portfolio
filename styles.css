@@ -4,18 +4,31 @@ h1 {
 }
 body{
     background-color: rgb(134, 138, 141);
+    background-image: -webkit-image-set();
 }
 nav>a {
     text-align:center;
     padding: 30px;
     text-decoration: none;
+    
 }
-image{
-    float:right;
-    width: 20px;
 
-}
-#contacts{
+
+#footer{
     color: brown;
     font-style: italic;
+    text-align: center;
+}
+#projects{
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+.home{
+    display:flex;
+    justify-content: center;
 }
