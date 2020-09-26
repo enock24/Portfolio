@@ -18,17 +18,24 @@ nav>a {
     color: brown;
     font-style: italic;
     text-align: center;
+    font-size: 0.8cm;
 }
 #projects{
     text-align: center;
+    font-size: 0.5cm;
 }
 span{
     text-align: center;
+    font-size: 1.5cm;
 }
 #about{
     text-align: center;
+    font-size: 0.5cm;
 }
 .home{
     display:flex;
     justify-content: center;
+}
+p{
+    font-style: inherit;
 }
