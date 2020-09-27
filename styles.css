@@ -4,13 +4,14 @@ h1 {
     font-size: 1.5cm;
 }
 body{
-    background-color: rgb(134, 138, 141);
+    background-color: darkgrey;
+
 }
 nav>a {
-    text-align:center;
+    text-align:right center;
     padding: 30px;
     text-decoration: none;
-    
+    background-color: royalblue;
 }
 
 
@@ -19,6 +20,8 @@ nav>a {
     font-style: italic;
     text-align: center;
     font-size: 0.8cm;
+    background-color:cornflowerblue;
+    padding-top: 2.5cm;
 }
 #projects{
     text-align: center;
@@ -38,4 +41,12 @@ span{
 }
 p{
     font-style: inherit;
+}
+@media screen and (max-width:1000px){
+   #primary{width: 70%;}
+   #secondary{width:35%; margin-left: 5%;}
+}
+@media screen and (max-width:480px){
+    #primary{width:90%}
+    #secondary{width:90%; margin:0; border:none;}
 }
